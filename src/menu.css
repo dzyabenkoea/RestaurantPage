@@ -1,0 +1,19 @@
+/*Menu*/
+#menu-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+#menu-table td {
+    padding: 1rem;
+    border: 1px solid lightgray;
+}
+
+#menu-table tr {
+    border: 1px solid lightgray;
+}
+
+#dish-table-header {
+    width: 80%;
+}
