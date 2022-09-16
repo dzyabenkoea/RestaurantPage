@@ -28,8 +28,7 @@ const MainContent = (function () {
         const htmlMarkup = `
         <div class="container">
             <article class="description-block">
-                <img class="description-image" src="./assets/images/restaurant-in-valkenswaard.jpg"
-                     alt="cool picture of restaurant">
+                <img class="description-image" alt="cool picture of restaurant">
                 <div class="header-description">
                     <h1>Best in the city</h1>
                     <p class="description">
@@ -59,6 +58,7 @@ const MainContent = (function () {
             <img id="photo-image" hidden>
         </div>`
         document.querySelector('main').innerHTML = htmlMarkup
+        document.querySelector('.description-image').src = rest1
         const photoSlider = document.querySelector('#photo-slider')
         if (images !== null) {
             console.log(images)
