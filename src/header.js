@@ -60,8 +60,8 @@ const Header = (() => {
         <img id="logo" src="" alt="Логотип">
         <nav>
             <ul class="menu-list">
-                <li id="main-link"><a class="menu-link">Main</a></li>
-                <li id="menu-link"><a class="menu-link">Menu</a></li>
+                <li id="main-link">Main</li>
+                <li id="menu-link">Menu</li>
                 <li id="photos-link">Photos</li>
                 <li id="contacts-link">Contacts</li>
             </ul>
